@@ -1,0 +1,12 @@
+tags:
+  - Product System
+parameters:
+  - name: barcode
+    in: path
+    type: integer
+    required: true
+    default: 0
+
+responses:
+  200:
+    description: Request successful, tells data about product in name|price|type (un/kg)|controlled format.

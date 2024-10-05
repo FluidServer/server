@@ -1,0 +1,12 @@
+tags:
+  - Product System
+parameters:
+  - name: userid
+    in: path
+    type: integer
+    required: true
+    default: 0
+
+responses:
+  200:
+    description: Request successful, tells name of the user.

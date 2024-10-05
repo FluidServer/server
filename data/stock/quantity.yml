@@ -1,0 +1,12 @@
+tags:
+  - Stock System
+parameters:
+  - name: barcode
+    in: path
+    type: integer
+    required: true
+    default: 0
+
+responses:
+  200:
+    description: Request successful, tells the quantity of the product.

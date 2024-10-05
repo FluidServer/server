@@ -1,0 +1,7 @@
+db/*.db
+db/backups/*
+db/bkp/*
+*.db
+old/*.db
+_build/*
+db/*

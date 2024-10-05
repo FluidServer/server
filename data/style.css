@@ -1,0 +1,38 @@
+.section1 { grid-area: h; font-size: 20px; vertical-align: bottom; height: 100%;}
+.section2 { grid-area: z; background-color: #E5F7FF; font-size: 40px;}
+.section3 { grid-area: m; background-color: #DEF5FF; font-size: 40px;}
+.section4 { grid-area: n; background-color: #DEF5FF; font-size: 40px;}
+.section5 { grid-area: a; background-color: #CFF1FF; font-size: 40px;
+            vertical-align: bottom;}
+
+.section2 h1 {font-size: 72px;}
+.section3 h1 {font-size: 72px;}
+.section4 h1 {font-size: 72px;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    word-wrap: inherit;
+    font-family: Inter;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-areas: 
+        'h h h h h h h h h h h h h h h h h h h h'
+        'h h h h h h h h h h h h h h h h h h h h'
+        'h h h h h h h h h h h h h h h h h h h h'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z m m m m m m m n n n n n n'
+        'z z z z z z z a a a a a a a a a a a a a'
+    ;
+    gap: 0px;
+}
+
+h1 {
+    font-weight: 400;
+}
