@@ -5,3 +5,5 @@ db/bkp/*
 old/*.db
 _build/*
 db/*
+
+__pycache__
