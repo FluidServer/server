@@ -52,3 +52,5 @@ Distributed under the MIT license.
 3. Commit your changes (`git commit -am 'Add some change'`)
 4. Push to the branch (`git push origin feature/yournewfeature`)
 5. Create a new pull request
+
+`SPDX-License-Identifier: MIT or Apache-2.0`
