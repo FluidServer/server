@@ -7,3 +7,4 @@ _build/*
 db/*
 
 __pycache__
+dist/
