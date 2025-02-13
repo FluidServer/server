@@ -43,6 +43,8 @@ If you are a developer of a POS-system then you can easily integrate FluidServer
 
 Also, you can use Swagger UI to test the APIs from your browser (while running FluidServer of course.)
 
+Python 3.12+ is required to use FluidServer
+
 # Meta
 Built by clue <<lost@biitle.nl>>.
 
